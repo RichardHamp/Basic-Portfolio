@@ -178,11 +178,13 @@ p {
 }
 
 #sharkz {
-    height: 180px;
+    height: 177px;
     margin: 10px;
 }
 
 #proof {
-    height: 180px;
+    height: 177px;
     margin: 10px;
 }
+
+a {text-decoration:none;}
