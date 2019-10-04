@@ -1,51 +1,58 @@
-<!--Contact page of biographical website-->
+<!--Contact Page of biographical website-->
 
 <!DOCTYPE html>
   <html lang="en-us">
     <head>
       <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <meta charset="UTF-8">
-        <title>Richard Hamp's Portfolio</title>
+  <title>Richard Hamp's Portfolio</title>
+    </head>
 
-<!--Button Links-->
-  <div id=wrapper>
-    <header>
-      <div id="header1">Richard Hamp</h1>
-    </header>
-      <div id="about">
-        <a href="index.html" class="button">about</a>
-      </div>
-      <div id="portfolio">
-        <a href="portfolio.html" class="button">portfolio</a>
-      </div>
-      <div id="contact">
-        <a href="contact.html" class="button">contact</a>
-      </div>
-  </div>
+    <body>
+        <nav>
+          <header>Richard Hamp</header>
+
+<!--Navigational Buttons-->
+
+          <div id="about">
+            <a href="index.html" class="button">About</a>
+          </div>
+
+          <div id="portfolio">
+            <a href="portfolio.html" class="button">Portfolio</a>
+          </div>
+          
+          <div id="contact">
+            <a href="contact.html" class="button">Contact</a>
+          </div>
+        </nav>
 
 <!--Input Sections-->
-  <body>
-    <div id="relative">
-      <div id="absolute2">
-        <h2 id=aboutme>About Me</h2>
-        <hr>
-        <label for="name">Name</label>
-          <br>
-          <input type="text" id="name" placeholder="Your name..">
-        <br>
-        <label for="email">Email</label>
-          <br>
-          <input type="text" id="email" placeholder="Your email..">
-        <br>
-        <label for="subject">Subject</label>
-          <br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          <input type="submit" value="Submit">
-      </div>      
-    </div>
-  </body>
- 
-  <footer>
-    <div id=test>
-    </div>
-  </footer>
+
+      <main>
+        <div id="relative-contact">
+          <div id="contact-content">
+            <h2>Contact</h2>
+            <hr>
+
+            <label for="name">Alias</label>
+              <br>
+              <input type="text" label class="contact-input" placeholder="Your name..">
+              <br>
+
+            <label for="email">Interwebs Address</label>
+              <br>
+              <input type="text" label class="contact-input" placeholder="Your email..">
+              <br>
+
+            <label for="subject">Tell Rick All the Secrets</label>
+              <br>
+              <textarea class="contact-input" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <input type="submit" value="Make it So">
+
+          </div>      
+        </div>
+      </main>
+    </body>
+  <footer></footer>
+</head>
